@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flashtopia.indeedplainnote">
+
+    <!-- Permission to use AlarmManager -->
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <!-- Permission to Send SMS -->
+    <!--<uses-permission android:name="android.permission.SEND_SMS" />-->
+
+    <!-- Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming-->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- For permission for NFC-->
+    <uses-permission android:name="android.permission.NFC" />
+    <!-- To read files from external storage-->
+    <!--<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+
+    <!-- for testing whether or not file is created in External storage-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--for Alarm works even if reboot device-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--
+    Not every Android device supports NFC. To make sure that our app only shows up in Google Play for those devices that support NFC,
+     add the <uses-feature> element to the manifest file.
+    -->
+    <!--<uses-feature-->
+        <!--android:name="android.hardware.nfc"-->
+        <!--android:required="true" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme.Base">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".NotesProvider"
+            android:authorities="com.flashtopia.indeedplainnote.notesprovider"
+            android:exported="false" />
+
+        <activity
+            android:name=".EditorActivity"
+            android:label="@string/edit_note"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.flashtopia.indeedplainnote.MainActivity" />
+        </activity>
+
+        <receiver
+            android:name=".components.AlarmReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!--For HTC Device-->
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".components.AlarmService" android:enabled="true"/>
+
+
+    </application>
+
+</manifest>

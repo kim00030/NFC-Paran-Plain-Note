@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.flashtopia.indeedplainnote.EditorActivity">
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_action_delete"
+        android:orderInCategory="100"
+        android:title="@string/action_delete_current_note"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_email_note"
+        android:icon="@drawable/ic_action_email"
+        android:orderInCategory="101"
+        android:title="@string/email"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_nfc_note"
+        android:icon="@drawable/ic_action_nfc"
+        android:orderInCategory="102"
+        android:title="@string/nfc"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_alarm_note"
+        android:icon="@drawable/ic_action_alarm"
+        android:orderInCategory="103"
+        android:title="@string/alarm_note"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_view_mode"
+        android:checkable="true"
+        android:orderInCategory="104"
+        android:title="@string/view_mode"
+        app:showAsAction="never" />
+
+</menu>

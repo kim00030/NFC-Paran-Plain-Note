@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Paran Plain Note</string>
+    <string name="delete_all_notes">Delete All Notes</string>
+    <string name="all_deleted">All notes deleted</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="new_note">New note</string>
+    <string name="action_save">Saved</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+    <string name="action_delete_current_note">Deleted</string>
+    <string name="you_have_no_notes">You have no notes</string>
+    <string name="image">Image</string>
+    <string name="enter_your_note_here">Enter your note here</string>
+    <string name="edit_note">Edit</string>
+    <string name="email">E-mail</string>
+    <string name="unable_to_save">Current note is empty. Unable to save</string>
+    <string name="unable_to_open_email">Your current note is empty. Unable to open E-mail</string>
+    <string name="send_email_using">"Send Email Using: "</string>
+    <string name="your_note_area">Your Note Area</string>
+    <string name="nfc">Send note by NFC</string>
+    <string name="external_storage_not_available">External storage(i.e. SD card) in your device is not available</string>
+    <string name="your_device_is_not_available_for_nfc">Your device is not available for NFC</string>
+    <string name="your_device_is_not_supported_for_nfc">Your device is not supported for NFC</string>
+    <string name="please_enable_nfc">Please enable NFC.</string>
+    <string name="please_enable_android_beam">Please enable Android Beam.</string>
+    <string name="you_dont_have_app_for_email">You don\'t have any app for sending e-mail.</string>
+    <string name="note_is_ready_to_be_send">Note is ready to be sent out to another device.\n\n1.Make sure NFC and Android Beam in another device are turned on.\n2.Tap your device with the target device on each other at the back.</string>
+    <string name="alarm_note">Alarm note</string>
+    <string name="set_time_for_alarm">Set time for note alarm</string>
+    <string name="note_will_be_alarmed_on">"Note will be alarmed on "</string>
+    <string name="my_note">MY Note</string>
+    <string name="alert">Alert</string>
+    <string name="nfc_talk_image">nfc talk image</string>
+    <string name="note_has_already_alarm">This note has already set alarm</string>
+    <string name="wait_while_loading">Wait while loading…</string>
+    <string name="alarm_date">EEEE, hh:mm a</string>
+    <string name="title_in_thank_you_dialog">Message</string>
+    <string name="msg_prefix_in_thank_you_dialog">"Thank you for choosing "</string>
+    <string name="msg_postfix_in_thank_you_dialog">".\nYou can press plus button(+) to create new note. Enjoy"</string>
+    <string name="view_mode">View Mode</string>
+
+
+</resources>

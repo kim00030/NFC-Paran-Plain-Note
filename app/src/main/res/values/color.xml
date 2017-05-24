@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#FBF804</color>
+    <color name="primary_dark">#F70CA7</color>
+    <color name="accent">#C5CAE9</color>
+    <color name="list_item_text">#333</color>
+
+    <!--Current colors used for Theme using material design -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#90CAF9</color>
+    <color name="navigationBarColor">#2196F3</color>
+    <color name="colorAccent">#FF80AB</color>
+    <color name="addButtonColor">#FF4081</color>
+
+    <color name="editTextBackground">#F8F8C5</color>
+    <color name="yourNoteArea_text_color">#8C8A8C</color>
+   
+</resources>

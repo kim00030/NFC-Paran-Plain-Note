@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">파란 완전 간단 노트장</string>
+    <string name="delete_all_notes">모든 노트들 삭제</string>
+    <string name="all_deleted">모든 노트들을 삭제했읍니다 </string>
+    <string name="are_you_sure">삭제하시겠읍니까?</string>
+    <string name="new_note">새 노트</string>
+    <string name="action_save">저장되었읍니다</string>
+    <string name="menu_save">저장</string>
+    <string name="menu_delete">제거</string>
+    <string name="action_delete_current_note">노트를 제거했읍니다</string>
+    <string name="you_have_no_notes">현재 저장된 노트가 없읍니다</string>
+    <string name="image">이미지</string>
+    <string name="enter_your_note_here">노트를 쓰세요</string>
+    <string name="edit_note">편집</string>
+    <string name="email">이메일</string>
+    s<string name="unable_to_save">현재노트가 비어있읍니다. 노트를 써주세요.</string>
+    <string name="unable_to_open_email">현재노트가 비어있읍니다.노트를 써주세요.</string>
+    <string name="send_email_using">"이메일 사용: "</string>
+    <string name="your_note_area">노트 편집 공간</string>
+    <string name="external_storage_not_available">SD card를 확인해주세요. 사용할수가 없읍니다.</string>
+    <string name="your_device_is_not_available_for_nfc">NFC를 사용할수 없는 기종입니다</string>
+    <string name="your_device_is_not_supported_for_nfc">NFC를 지원하지 않는 기종입니다C</string>
+    <string name="please_enable_nfc">NFC를 활성화하십시오.</string>
+    <string name="please_enable_android_beam">앤드로이드빔을 활성화하십시오</string>
+    <string name="you_dont_have_app_for_email">이메일로 전송 할수있는 앱이 활성화 되어있지 않습니다</string>
+    <string name="note_is_ready_to_be_send">노트를 전송할 준비가 되었습니다.\n\n1.노트가 보내질 기기의 NFC와 Android Beam을 활성화 해주세요.\n2.기기 뒷부분들끼리 터치해 주세요.</string>
+    <string name="alarm_note">알람 노트</string>
+    <string name="nfc">NFC로 노트 보내기</string>
+    <string name="set_time_for_alarm">노트 알람이 실행될 시간을 정해주세요</string>
+    <string name="note_will_be_alarmed_on">"에 알람이 실행됩니다"</string>
+    <string name="my_note">나의 노트</string>
+    <string name="alert">알림</string>
+    <string name="nfc_talk_image">nfc 이미지</string>
+    <string name="note_has_already_alarm">이미 알람이 셋 되어있읍니다</string>
+    <!--<string name="loading">로딩중 입니다</string>-->
+    <string name="wait_while_loading">로딩하는동안 기다리세요…</string>
+    <string name="alarm_date">MM월dd일 EEEE hh시 mm분 a</string>
+    <string name="title_in_thank_you_dialog">메시지</string>
+    <string name="msg_prefix_in_thank_you_dialog">"선택해 주셔서 감사합니다."</string>
+    <string name="msg_postfix_in_thank_you_dialog">"\n새 노트를 만들려면 "+"버튼을 누르십시오."</string>
+    <string name="view_mode">보기 모드</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!-- option menu style-->
+        <item name="actionOverflowButtonStyle">@style/MyCustomOverFlowStyle</item>
+        <!-- Home button-->
+        <item name="homeAsUpIndicator">@drawable/ic_tag_text</item>
+
+    </style>
+
+
+    <!-- for text on ActionBar-->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/primary_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyCustomOverFlowStyle">
+        <item name="android:src">@drawable/ic_tag_text</item>
+    </style>
+
+    <!-- Current Theme by material design-->
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base"/>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StyledDialog" parent="Theme.AppCompat.Light.Dialog"/>
+
+  </resources>
+
+
+
+
